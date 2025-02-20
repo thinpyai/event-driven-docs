@@ -1,6 +1,6 @@
 # 📄 Event-Driven Document Processing System
 
-An **event-driven microservices-based** system that automates document processing using **Python (FastAPI/Django)** and **Java (Spring Boot)**. The system is designed to run **on AWS (S3, SNS, SQS, DynamoDB)** and **locally using Docker**.
+An **event-driven microservices-based** system that automates document processing using **Python (FastAPI)** and **Java (Spring Boot)**. The system is designed to run **on AWS (S3, SNS, SQS, DynamoDB)** and **locally using Docker**.
 
 ---
 
@@ -9,7 +9,7 @@ An **event-driven microservices-based** system that automates document processin
 - 🔔 **Triggers SNS event** upon upload
 - 🐍 **Python Service (FastAPI/Django)** extracts text from documents
 - ☕ **Java Service (Spring Boot)** analyzes sentiment and keywords
-- 🗄 **Stores results in DynamoDB/PostgreSQL**
+- 🗄 **Stores results in DynamoDB**
 - 🛠 **Deployable via Docker & AWS**
 
 ---
