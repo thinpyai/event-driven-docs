@@ -27,10 +27,11 @@ sequenceDiagram
 
     User->>AWS S3: Uploads Document
     AWS S3-->>SNS: Triggers Event
-    SNS-->>Python Service: Notifies for text extraction
-    Python Service-->>Database: Stores extracted text
-    Python Service-->>Java Service: Sends extracted text for analysis
-    Java Service-->>Database: Stores sentiment & keyword analysis
+    SNS-->>Text Extraction Service (Python): Notifies for text extraction
+    Text Extraction Service (Python)-->>Database: Stores extracted text
+    Text Extraction Service (Python)-->>NLP Processing Service (Java): Sends extracted text for analysis
+    NLP Processing Service (Java)-->>Database: Stores sentiment & keyword analysis
+```
 
 ---
 
