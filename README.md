@@ -21,8 +21,8 @@ sequenceDiagram
     participant User
     participant AWS S3
     participant SNS
-    participant Python Service
-    participant Java Service
+    participant Text Extraction Service (Python)
+    participant NLP Processing Service (Java)
     participant Database
 
     User->>AWS S3: Uploads Document
