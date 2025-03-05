@@ -39,7 +39,7 @@ sequenceDiagram
 
 | Component          | Technology                     |
 |-------------------|--------------------------------|
-| **Frontend (Optional)** | React (for UI if needed)  |
+| **Frontend (Optional)** | Angular  |
 | **Python Service** | FastAPI / Django REST        |
 | **Java Service**   | Spring Boot                   |
 | **Event Broker**   | AWS SNS + SQS                 |
