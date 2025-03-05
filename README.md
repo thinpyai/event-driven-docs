@@ -40,7 +40,7 @@ sequenceDiagram
 | Component          | Technology                     |
 |-------------------|--------------------------------|
 | **Frontend (Optional)** | Angular  |
-| **Python Service** | FastAPI / Django REST        |
+| **Python Service** | Django REST        |
 | **Java Service**   | Spring Boot                   |
 | **Event Broker**   | AWS SNS + SQS                 |
 | **Storage**        | AWS S3, DynamoDB/PostgreSQL   |
