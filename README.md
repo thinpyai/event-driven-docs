@@ -40,8 +40,8 @@ sequenceDiagram
 | Component          | Technology                     |
 |-------------------|--------------------------------|
 | **Frontend (Optional)** | Angular  |
-| **Python Service** | Django REST        |
-| **Java Service**   | Spring Boot                   |
+| **Text Extraction Service** | Django REST        |
+| **NLP Processing Service**   | Spring Boot                   |
 | **Event Broker**   | AWS SNS + SQS                 |
 | **Storage**        | AWS S3, DynamoDB/PostgreSQL   |
 | **Containerization** | Docker                      |
